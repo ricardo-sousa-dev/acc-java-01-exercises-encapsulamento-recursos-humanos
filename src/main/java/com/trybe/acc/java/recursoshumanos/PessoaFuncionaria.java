@@ -7,14 +7,6 @@ public class PessoaFuncionaria {
   private String endereco;
   private double salario;
 
-  /** Construtor padrão. */
-  public PessoaFuncionaria() {
-    this.nomeCompleto = "";
-    this.cpf = "";
-    this.endereco = "";
-    this.salario = 0.0;
-  }
-
   /** Construtor com parâmetros. */
   public PessoaFuncionaria(String nomeCompleto, String cpf, String endereco, double salario) {
     this.nomeCompleto = nomeCompleto;
